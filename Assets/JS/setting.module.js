@@ -42,15 +42,3 @@ export class Setting {
   
 }
 
-
-// //press enter to add a new user
-//   function keyBoardClicked(e) {
-//     if (e.keyCode === 13) {
-//         const setting = new Setting();
-//         setting.startQuiz();
-//         // alert('clicked')
-//     }
-//   }
-
-//   //fire the keyBoardLogIn function when a specific key is Pressed Down
-//    document.addEventListener("keydown", keyBoardClicked);

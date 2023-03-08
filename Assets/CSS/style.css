@@ -146,9 +146,6 @@ input::-webkit-outer-spin-button {
 #info{
    background-color: var(--secondColor)!important ;
 }
-/* .badge.qNum{
- 
-} */
 
 #quiz,
 #finsish,

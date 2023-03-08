@@ -16,7 +16,7 @@ export class Quiz {
       this.displayQuestion();
 
       //Events
-      console.log(this.response);
+      //console.log(this.response);
       $('#to').html(this.questionLength);
       document.getElementById("nextQuestion").addEventListener("click", ev => this.nextQuestion(ev));
       document.getElementById("end").addEventListener("click", ev => this.tryAgain(ev));
@@ -83,7 +83,7 @@ export class Quiz {
               $("#finsish").addClass("show");
               $("#score").html(this.score);
               this.percentage = 100 * this.score / this.questionLength;
-              console.log(this.percentage);
+              //console.log(this.percentage);
               if(this.percentage >= 75 ){
                 $("#celeb").removeClass("d-none");  
                 document.getElementById('winCeleb').play();
