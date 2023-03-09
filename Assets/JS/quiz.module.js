@@ -102,6 +102,7 @@ export class Quiz {
         $("#setting").addClass("show");
         $('#celeb').addClass('d-none');
         document.getElementById('winCeleb').pause();
+        document.getElementById('winCeleb').currentTime = 0
         //location.reload();
         this.curentIndex = 0;
         this.score = 0;
